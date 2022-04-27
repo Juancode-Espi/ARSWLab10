@@ -43,10 +43,15 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+Azure Functions es usado para correr una pequeña funcionalidad desarrollado en pequeñas piezas de código o funciones. Una característica clave es que usa una arquitecura orientada a eventos y es serverless, ayuda a acelerar procesos de despliegue.
 * ¿Qué es serverless?
+Serverless es como su palabra lo indica "sin servidor" y más especificamente consiste en que el proveedor de nube asigna recursos dinámicos, por lo que solo hay consumo cuando un servicio se está usando, osea un programador se preocupa unicamente por el uso de los servicios informáticos debido a que la infraestructura como tal escala automáticamente y el proveedor se encarga de esto.
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+Ya sabemos  que el runtime es el sistema usado para la ejecución de nuestra programación, en una Function App es necesario asignar una versión del runtime para iniciar con lel entorno de ejecución
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+esto se debe a que las Function Apps usan el Storage account para administrar triggers y el registro de la ejecución de funciones 
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
